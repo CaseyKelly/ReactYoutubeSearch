@@ -10,9 +10,9 @@ const App = () => {
   return (
     <div>
       <SearchBar />
-    </div>;
+    </div>
   );
 }
 
 // Take this component's generated HTML and put in on the page (in the DOM)
-ReactDOM.render(<App />, do`cument.querySelector('.container'))
+ReactDOM.render(<App />, document.querySelector('.container'))
